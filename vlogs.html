@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>LTAR Final Project</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/3fa1bd14c7.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section class="sub-headerV">
+            <nav>
+                <a href="index.html"><img src="images/reportHeader1.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li> <a href="index.html">HOME</a> </li>
+                        <li> <a href="about.html">ABOUT</a> </li>
+                        <li> <a href="articles.html">ARTICLES</a> </li>
+                        <li> <a href="vlogs.html">VLOGS</a> </li>
+                    </ul>
+                   
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>COMMUNICATION MISTAKES AND CONFLICT RESOLUTION VLOGS</h1>
+        </section>
+        <!--Articles-->
+
+        <!--- VLOGS PART -->
+        <section class="vlogs">
+            <p>
+                We all communicate differently which is why we should always learn to try to understand everyone we talk to. When there are problems in communication we have to make sure to understand and know the various different things to do in order to keep our relationships. 
+            </p>
+            <div class="row1">
+                <div class="vlogs-col">
+                    <img src="images/campus.jpg">
+                    <div class="layer">
+                        <h3>DILUVIO</h3>
+
+                    </div>
+                </div>
+                <div class="vlogs-col">
+                    <img src="images/safad.jpg">
+                    <div class="layer">
+                        <a href="tumulakV.html">
+                            <h3>TUMULAK</h3>
+                        </a>                        
+                    </div>
+                </div>
+                <div class="vlogs-col">
+                    <img src="images/london.jpg">
+                    <div class="layer">
+                    <a href="dayananV.html">
+                        <h3>DAYANAN</h3>
+                    </a>
+                    </div>
+                </div>
+                <div class="vlogs-col">
+                    <img src="images/newyork.jpg">
+                    <div class="layer">
+                        <a href="riveraV.html">
+                        <h3>RIVERA</h3>
+                    </a>
+                    </div>
+                </div>
+                <div class="vlogs-col">
+                    <img src="images/washington.jpg">
+                    <div class="layer">
+                        <a href="toralV.html">
+                            <h3>TORAL</h3>
+                        </a>
+              
+
+                    </div>
+                </div>
+            </div>
+         
+        
+            <div class="centerButton">
+                <a href="index.html" class="hero-btn green-btn">HOME</a>
+            </div>
+        </section>
+        <!-- FOOTER -->
+        <section class="footer">
+        <h4>About Us</h4>
+        <p>We are a group of psychologists and a computer engineer, 
+            who took this subject to learn more on ways to effectively <br>
+            communicate with the people around us. This website is our 
+            final requirement for LTAR for S.Y. 2022 </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Paul John Toral </p>
+
+        </section>
+
+        
+
+
+        <!--javaScript for Toggle Menu -->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu()
+            {
+                navLinks.style.right="0";
+            }
+
+            function hideMenu()
+            {
+                navLinks.style.right="-200px";
+            }
+
+        </script>
+
+
+    </body>
+</html>

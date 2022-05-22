@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>LTAR Final Project</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/3fa1bd14c7.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section class="sub-headerA">
+            <nav>
+                <a href="index.html"><img src="images/reportHeader1.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li> <a href="index.html">HOME</a> </li>
+                        <li> <a href="about.html">ABOUT</a> </li>
+                        <li> <a href="articles.html">ARTICLES</a> </li>
+                        <li> <a href="vlogs.html">VLOGS</a> </li>
+                    </ul>
+                   
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>ARTICLES</h1>
+        </section>
+        <!--Articles-->
+        <!-- Website Part -->
+
+        <section class="articles">
+            <h1>Blog Articles</h1>
+            <p>
+                Below are 7 Blog articles that tackle on subjects such as: getting to know ourselves, the axioms of communication, communication theories, communication styles, communication in public contexts, mediated-communication, and types of relationships.
+            </p>
+
+            <div class="row1">
+                <div class="article-col" >
+                    <a class= "articleLinks" href="personalDescriptions.html">
+                        <h3>Personal Descriptions</h3>
+                        <p>
+                           Get to know the people behind this website and the team behind all these blog articles! We share about our age, and all the other details to allow you to get a glimpse of who we are!
+                        </p>
+                    </a>
+                </div>
+                <div class="article-col">
+                    <a class= "articleLinks" href="axioms.html">
+                    <h3>Axioms of Communication</h3>
+                    <p>
+                        Here we tackle the five axioms of communication, formulated by Paul Watzlawick, give insight into communication; one cannot not communicate, every communication has a content, communication is punctuated, communication involves digital and analogic modalities, communication can be symmetrical or complementary.
+                    </p>
+                    </a>
+                </div>
+                <div class="article-col">
+                    <a class= "articleLinks" href="relational.html">
+                    <h3>Relational Communication Theory</h3>
+                    <p>
+                        Various theories on communication have paved the way for researchers to understand why people act the way they do! Here we tackle communication theories where we think fit us the most! 
+                    </p>
+                    </a>
+                </div>
+               
+          
+            </div>
+            <div class="row2">
+                <div class="article-col">
+                    <a class= "articleLinks" href="commStyle.html">
+                    <h3>Communication Style</h3>
+                    <p>
+                        All of us communicate differently, learning about your communication style helps you understand yourself better! Want to know our communication styles? Read now!
+                    </p>
+                    </a>
+                </div>
+                <div class="article-col">
+                    <a class= "articleLinks" href="commPublic.html">
+                        <h3>Communication and Relationship Building in Public Contexts</h3>
+                        <p>
+                           We have many questions such as "Can teachers and students be friends?" and "How are we going to better communication in our workplace?". Here we answer these questions! 
+                        </p>
+                    </a>
+                </div>
+                <div class="article-col">
+                    <a class= "articleLinks" href="mediated.html">
+                        <h3>Communication in Mediated-Communication</h3>
+                        <p>
+                        Long Distance Relationships are hard. But worry not! Here we have survival kits for you and your bestie to stay BFFs! Just always remember to read and comprehend our tips and tricks!
+                        </p>
+                    </a>
+                    
+                </div>
+               
+            </div>
+            <div class="row3">
+                <a class= "articleLinks" href="typesofRel.html">
+                <div class="article-col">
+                    <h3>Types of Relationships</h3>
+                    <p>
+                        Whether it be your relationship with a friend, your favorite dog, or the marriage between your parents, communication takes place. Learning how to communicate in relation to the type of relationship allows us to be more effective communicators! 
+                    </p>
+                </a>
+                </div>
+            </div>
+
+            <div class="centerButton">
+                <a href="index.html" class="hero-btn green-btn">HOME</a>
+            </div>
+        </section>
+       
+        <!-- FOOTER -->
+        <section class="footer">
+        <h4>About Us</h4>
+        <p>We are a group of psychologists and a computer engineer, 
+            who took this subject to learn more on ways to effectively <br>
+            communicate with the people around us. This website is our 
+            final requirement for LTAR for S.Y. 2022 </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Paul John Toral </p>
+
+        </section>
+
+        
+
+
+        <!--javaScript for Toggle Menu -->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu()
+            {
+                navLinks.style.right="0";
+            }
+
+            function hideMenu()
+            {
+                navLinks.style.right="-200px";
+            }
+
+        </script>
+
+
+    </body>
+</html>
